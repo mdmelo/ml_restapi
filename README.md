@@ -5,7 +5,13 @@ $ source venv/bin/activate
 
 (venv) $ fastapi run main.py
 INFO     Using path main.py
-INFO     Resolved absolute path /tmp/ml_restapi/main.py                                                                                        INFO     Searching for package file structure from directories with __init__.py files                                                          INFO     Importing from /tmp/ml_restapi                                                                                                         ╭─ Python module file ─╮                                                                                                                       │                      │                                                                                                                       │  🐍 main.py          │
+INFO     Resolved absolute path /tmp/ml_restapi/main.py
+INFO     Searching for package file structure from directories with __init__.py files
+INFO     Importing from /tmp/ml_restapi
+
+ ╭─ Python module file ─╮
+ │                      │
+ │  🐍 main.py          │
  │                      │
  ╰──────────────────────╯
 
@@ -21,12 +27,15 @@ To enable the following instructions: AVX2 FMA, in other operations, rebuild Ten
 2024-09-28 05:25:43,135 - main - DEBUG - init models dict and models params
 2024-09-28 05:25:43,135 - main - DEBUG - starting FASTAPI app main...
 INFO     Found importable FastAPI app
+
  ╭─ Importable FastAPI app ─╮
  │                          │
  │  from main import app    │
  │                          │
  ╰──────────────────────────╯
+
 INFO     Using import string main:app
+
  ╭─────────── FastAPI CLI - Production mode ───────────╮
  │                                                     │
  │  Serving at: http://0.0.0.0:8000                    │
