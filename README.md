@@ -96,7 +96,7 @@ Epoch 15/15
 8/8 ━━━━━━━━━━━━━━━━━━━━ 1s 64ms/step - accuracy: 0.9967 - loss: 0.0077 - val_accuracy: 0.9800 - val_loss: 0.0785
 
 
-$ ./curlpredict.sh test_img7.png
+$ ./curlpredict.sh images/test_img7.png
 test_img7.png
 {"filename":"test_img7.png","result":"9"}
 
