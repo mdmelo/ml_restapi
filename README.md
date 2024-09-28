@@ -106,4 +106,6 @@ test_img7.png
 INFO:     127.0.0.1:52338 - "POST /predict-image/ HTTP/1.1" 200 OK
 
 
+or for swagger UI:  http://0.0.0.0:8000/docs
+
 ```
