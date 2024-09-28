@@ -201,8 +201,8 @@ async def predict(bill_length_mm: float = 0.0, flipper_length_mm: float = 0.0):
         }
 
 @app.post("/predict-image/")
-async def predicct_upload_file(file: UploadFile):
-    logger.debug('predicct_upload_file starting...')        
+async def predict_upload_file(file: UploadFile):
+    logger.debug('predict_upload_file starting...')        
 
     img = await file.read()
 
