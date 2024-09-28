@@ -118,7 +118,7 @@ else:
 
 
 # process image for prediction - test_img2 is '1'
-file='/books/MachineLearning/FastAPI/FastAPI-ml-demo/test_img2.png'
+file='test_img2.png'
 
 # img = []
 # temp = np.array(Image.open(file).resize((256, 256), Image.ANTIALIAS))
