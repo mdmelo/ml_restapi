@@ -116,9 +116,9 @@ def mnist_pipeline():
     return model
 
 
-LEMODELFILE = "/books/MachineLearning/FastAPI/FastAPI-ml-demo/lemodel.pickle"
-CLFMODELFILE = "/books/MachineLearning/FastAPI/FastAPI-ml-demo/clfmodel.pickle"
-CNNMODELFILE = "/books/MachineLearning/FastAPI/FastAPI-ml-demo/cnnmodel.keras"
+LEMODELFILE = "lemodel.pickle"
+CLFMODELFILE = "clfmodel.pickle"
+CNNMODELFILE = "cnnmodel.keras"
 
 
 # A `Lifespan` context manager handler. This replaces `startup` and `shutdown` functions
