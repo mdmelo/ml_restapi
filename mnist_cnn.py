@@ -9,7 +9,7 @@ from io import BytesIO
 num_classes = 10
 input_shape = (28, 28, 1)
 use_saved_model = True
-model_file = "/books/MachineLearning/FastAPI/FastAPI-ml-demo/mnistmodel.keras"
+model_file = "mnistmodel.keras"
 
 if not use_saved_model:
     
