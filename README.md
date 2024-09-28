@@ -1,5 +1,4 @@
-# ml_restapi
-
+```
 $ python3.11 -m venv venv
 $ source venv/bin/activate
 (venv) $ python -m pip install -r requirements.txt 
@@ -98,4 +97,4 @@ test_img7.png
 INFO:     127.0.0.1:52338 - "POST /predict-image/ HTTP/1.1" 200 OK
 
 
-
+```
